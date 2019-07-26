@@ -1,0 +1,27 @@
+{
+  "name": "app-react-native",
+  "version": "1.0.0",
+  "description": "App plants react-native",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "author": "Anderson Macedo <andersonmacedo1782@hotmail.com> (https://andersonmacedo.netlify.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "^16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-slider": "^0.11.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "schedule": "^0.4.0"
+  },
+  "private": true
+}
